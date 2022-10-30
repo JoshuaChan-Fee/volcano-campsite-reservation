@@ -1,0 +1,9 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.springframework.orm.jpa: DEBUG
+
+campsite:
+  max-reserved-days: 3
+  min-days-ahead-of-arrival: 1
+  reservation-max-days-in-advance: 31
